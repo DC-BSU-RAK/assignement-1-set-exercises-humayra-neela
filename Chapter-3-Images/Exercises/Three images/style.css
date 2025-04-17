@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .image-container {
+    width: 400px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    filter: contrast(1.1) saturate(1.2) brightness(0.95);
+    transition: filter 0.3s;
+    border-radius: 8px;
+  }
+  
+  .image-container img:hover {
+    filter: grayscale(0.2) blur(0.5px);
+  }
+  
+  .license {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 8px;
+  }  
