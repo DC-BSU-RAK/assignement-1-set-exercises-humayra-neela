@@ -1,11 +1,11 @@
-
+/* Making the body size */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F5F5F5;
 }
-
+/* Inserting information */
 .container {
     width: 600px;
     height: 400px;
@@ -37,10 +37,10 @@ body {
     button{
         background-color: rgb(105, 105, 223);
         border-radius: 5px;
-        border: 2px solid black;
+        border: 2px solid rgb(58, 152, 230);
     }
 
 button:hover{
-    background-color: chartreuse;
+    background-color: rgb(221, 181, 93);
 }
 }
