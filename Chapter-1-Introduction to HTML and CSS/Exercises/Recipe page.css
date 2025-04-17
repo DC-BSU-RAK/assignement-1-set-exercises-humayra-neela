@@ -1,0 +1,64 @@
+/* Adding the Body background*/
+body {
+  background: linear-gradient(to bottom right, #1b1b1b, #2e2e2e);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Making a Recipe card With bold background, soft white text */
+.recipe-card {
+  background-color: #0f0f0f; /* Dark cookie color */
+  color: #fff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1), 0 0 5px #fffb;
+  max-width: 650px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* making a hover */
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6), 0 0 10px #3e99ff55;
+}
+
+/* Headings colour and shape making */
+.recipe-card h1 {
+  font-size: 2.2em;
+  color: #4fc3f7; 
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4fc3f7;
+  padding-bottom: 5px;
+}
+
+/* For sections */
+.recipe-card h2 {
+  color: #f48fb1; 
+  margin-top: 25px;
+  font-size: 1.5em;
+}
+
+/* Description paragraph */
+.description {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* List styling */
+ul, ol {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
