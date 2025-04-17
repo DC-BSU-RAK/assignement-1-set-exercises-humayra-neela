@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #111; /* Optional dark background */
+    background-color: #111; /* it's an optional dark background */
   }
   
   video {
